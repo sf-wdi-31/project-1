@@ -21,9 +21,9 @@
 
 *What changes would you make to your project if you continue to work on it? (bullet points)*
 
----
 
-##### Screenshot(s) (optional)
+
+##Screenshot(s) (optional)
 
 
 
