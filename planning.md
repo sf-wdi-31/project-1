@@ -40,7 +40,7 @@ Outline your core user stories, and divide them into clear, smaller steps (somet
 Might consist of these steps:
 
 * Wireframe what a profile page will look like.
-* Create an `hbs` template for a profile page
+* Create HTML and a Handlebars template for a profile page
 * Write a server route to serve the profile page
 * Create a schema for a dog, defining attributes (e.g. name, age, favorite chew toy, etc.).
 * Create a page / form / route to create a new user in the database.
