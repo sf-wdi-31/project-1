@@ -30,7 +30,7 @@ For this project, there are core technical requirements and flex technical requi
 * **MongoDB** - Persist at least two resources to a MongoDB database. One resource must have full CRUD.  
 * **Visual Design** - Make your front-end snazzy by adding custom styling. First impressions matter!
 * **Code Style** - Write professional-looking code. Use a consistent style. Consider following the [Airbnb Javascript Styleguide](https://github.com/airbnb/javascript/tree/master/es5).
-* **Git** - 40+ commits, with a significant number from each teammate. Commit early, commit often. Each commit message should give a clear idea what you changed. (And don't expose any secret keys/tokens on GitHub!)  Reference this [git collaboration writeup](https://github.com/sf-wdi-31/project-1/blob/master/git-collaboration.md).
+* **Git** - 40+ commits, with a significant number from each teammate. Commit early, commit often. Each commit message should give a clear idea what you changed. (And don't expose any secret keys/tokens on GitHub!) You can reference our [GitHub collaboration workshop](https://github.com/sf-wdi-31/github-collaboration) and the [in-depth GitHub collaboration writeup](https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/github-collaboration-workflow.md).
 * **Heroku** - Deploy your app with Heroku.
 * **Documentation** - Write a README that would make an employer excited to hire you. See the [example readme](https://github.com/sf-wdi-31/readme-example) for a suggested structure.
 
