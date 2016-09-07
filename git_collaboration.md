@@ -50,8 +50,6 @@ Take your time:
 * Think about the results you expect before you press enter.
 * Whenever you see/type `git commit`, you can assume some changes have been made and staged.
 
-
-
 ## Collaboration Workflow
 
 There are two main scenarios for collaborating on coding projects:
@@ -67,19 +65,15 @@ Imagine you, Jessica, and Ali want to build an app together. Jessica starts a pr
 
 Your first task is to set up models for two resources. At the same time, Jessica is doing API integration and Ali is writing tests.
 
-1. You clone the project Jessica pushed up to GitHub after she makes you a collaborator. This creates a local repository on your computer with a `remote` called `origin`, which is the original repo Jessica created and technically belongs to Jessica. From within your local repository, you can check the URLs of all remote repos it's connected to.
+1. You clone the project Jessica pushed up to GitHub after she makes you a collaborator. This creates a local repository on your computer with a `remote` called `origin`, which is the original repo Jessica created.
 
-  ```zsh
-     git remote -v
-  ```
-
-2. Before you start creating models, make a new branch called `database-setup`. Feature branches help organize work on a project and ensure that only production-ready code lives on the `master` branch.
+2. Before you start creating models, make a new branch called `database-setup`. (Feature branches help organize work on a project and ensure that only production-ready code lives on the `master` branch.)
 
   ```zsh
      git checkout -b database-setup
   ```
 
-  *Now, you complete your task, building models as your group planned. The following steps outline how to get your new code up to the main group project.*
+  *Now, you complete your task, making frequent commits as you go. The following steps outline how to get your new code up to the main group project, once you're ready.*
 
 3. Make sure you've committed your most recent changes on your `database-setup` branch. Switch back to your local `master` branch, then pull from `origin/master` to bring your local `master` branch up to date.
 
@@ -88,16 +82,16 @@ Your first task is to set up models for two resources. At the same time, Jessica
      git pull origin master
   ```
 
-4. Now switch back to your local `database-setup` branch and merge your local `master` branch into it. This will give you a chance to resolve all conflicts with the most up-to-date master version before making a pull request. Watch git's output in the Terminal to see if any files have merge conflicts.
+4. Now switch back to your local feature branch and merge your local `master` branch into it. This will give you a chance to resolve all conflicts with the most up-to-date master version before making a pull request. Watch git's output in the Terminal to see if any files have merge conflicts.
 
   ```zsh
-     git checkout  database-setup
+     git checkout database-setup
      git merge master
   ```
 
-  **VERY IMPORTANT:** IF you have a merge conflict, you should grab one of your team members to help determine how to safely merge the code, then follow the instructions for [resolving merge conflicts locally](#resolving-merge-conflicts-locally).
+  **VERY IMPORTANT:** IF you have a merge conflict, you should work through the instructions for [resolving merge conflicts locally](#resolving-merge-conflicts-locally) with a teammate.
 
-5. Once you've resolved any conflicts, add and commit your changes locally, and push your feature branch to the remote repo.
+5. Once you've resolved any conflicts, add and commit your changes locally. Push your feature branch to the remote `origin` repo.
 
   ```
      git add .
@@ -109,13 +103,21 @@ Your first task is to set up models for two resources. At the same time, Jessica
 
   ![pull-request](https://cloud.githubusercontent.com/assets/7833470/12072813/76841710-b0aa-11e5-9644-4f840081c986.png)
 
-  This will notify all the collaborators that you just made a pull request. The next step is for someone else on the team to review your code and suggest any changes needed before merging it in. Your team will agree on the workflow for this as part of the planning process.
+  Someone else on the team should review your code and suggest any changes needed before merging it in.
 
 7. If there are no other pull requests, one of your team members can merge your pull request cleanly with the most up-to-date `master`. However, if your team merges other pull requests before yours, those pull requests might create merge conflicts with yours.
 
-  In that case, GitHub will show that merge conflicts exist and must be resolved locally. You'll want to repeat steps 3-5 to resolve the conflicts locally. Remember, it's up to each branch's owner to fix merge conflicts, not the project "owner."
+  In that case, GitHub will show that merge conflicts exist and must be resolved locally. You'll want to repeat steps 3-5 to resolve the conflicts locally. Remember, it's up to each branch's owner to fix merge conflicts.
 
 8. Once the `database-setup` feature branch has been moved into the `master` branch, you can delete the feature branch on GitHub. (If you really need to, you can restore the deleted branch through GitHub.)
+
+9. Go back to your local `master` branch and pull the changes from the remote repo.
+
+   ```
+   git pull origin master
+   ```
+
+10. Congratulations! You're ready to start a new feature.
 
 ## Resolving Merge Conflicts Locally
 1. First, and most importantly: Don't panic! Communication between team members will help you avoid them, but merge conflicts will inevitably happen. They're not the end of the world! Follow the rest of these steps to resolve conflicts.

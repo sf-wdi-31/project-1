@@ -4,7 +4,7 @@ It's time to put everything that you've learned in the past month together! For 
 
 Apply the skills you've learned by building a full-stack web application from the ground up, and build a polished, published website you can share in your portfolio.
 
-You will be working in pairs for this project. Remember to communicate, communicate, communicate.  Show us what you've got!
+You will be working in pairs for this project.  Show us what you've got!
 
 
 ##COMPLETED PROJECT DELIVERABLES
@@ -42,6 +42,52 @@ For this project, there are core technical requirements and flex technical requi
 * **Bootstrap** - Use Twitter Bootstrap, Foundation, Skeleton, or another CSS framework throughout your site to create a unified baseline style.
 * **Model Relationship** - Create a one-to-many or many-to-many relationship between two models using either embedded or referenced data.
 * **Sessions or Cookies** - Research sessions or cookies and use them to track a visitor.  As a much larger challenge, you can use sessions to enable authentication (user sign up, log in, and log out). Note: This option requires significant independent research, and doing authentication correctly is difficult.
+
+## GITHUB COLLABORATION WORKFLOW
+
+1. Make a new branch for each feature. If you're creating database models, you might make a branch called `database-setup`.
+
+  ```zsh
+     git checkout -b database-setup
+  ```
+
+2. Complete the feature, making frequent commits as you go. When your feature or bugfix is ready, the following steps outline how to get your new code up to the main group project.
+
+3. Commit your most recent changes on your `database-setup` branch.
+
+4. Switch back to your local `master` branch, then pull from `origin/master` to bring your local `master` branch up to date with any new remote changes.
+
+  ```zsh
+     git checkout master
+     git pull origin master
+  ```
+
+5. Switch back to your local `database-setup` branch and merge your local `master` branch into it. This will give you a chance to resolve all conflicts with the most up-to-date master version before making a pull request. Watch git's output in the Terminal to see if any files have merge conflicts.
+
+  ```zsh
+     git checkout database-setup
+     git merge master
+  ```
+
+6. Resolve any merge conflicts that occur.  Once you've resolved any conflicts, add and commit your changes locally, and push your feature branch to the remote repo.
+
+  ```
+     git add .
+     git commit -m "fix conflicts; merge master into database-setup"
+     git push origin database-setup
+  ```
+
+6. In your browser, head to the original remote repo's GitHub page (on the owner's account). GitHub will detect that you just pushed a new branch and give you a prompt to make a pull request for that branch. Go for it!
+
+  ![pull-request](https://cloud.githubusercontent.com/assets/7833470/12072813/76841710-b0aa-11e5-9644-4f840081c986.png)
+
+  Someone else on the team should review your code and suggest any changes needed before merging it in.
+
+7. Once the `database-setup` feature branch has been moved into the `master` branch, you can delete the feature branch on GitHub. (If you really need to, you can restore the deleted branch through GitHub.)
+
+
+
+
 
 
 ## PLANNING DELIVERABLES
