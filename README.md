@@ -87,7 +87,7 @@ In addition, we suggest you have a feature freeze sometime on Monday, September 
 * **Creativity**: Did you add a personal spin or creative element to your project? Did you deliver something of value to the end user?
 * **Code Quality**: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code?
 * **Problem Solving**: Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
-*
+
 Each of the criteria above will be evaluated as one of **incomplete**, **does not meet expectations**, **meets expectations**, or **exceeds expectations**. You'll be receiving written feedback from your instructors.
 
 
