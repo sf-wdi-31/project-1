@@ -30,7 +30,7 @@ For this project, there are core technical requirements and flex technical requi
 * **MongoDB** - Persist at least two resources to a MongoDB database. One resource must have full CRUD.  
 * **Visual Design** - Make your front-end snazzy by adding custom styling. First impressions matter!
 * **Code Style** - Write professional-looking code. Use a consistent style. Consider following the [Airbnb Javascript Styleguide](https://github.com/airbnb/javascript/tree/master/es5).
-* **Git** - 40+ commits, with a significant number from each teammate. Commit early, commit often. Each commit message should give a clear idea what you changed. (And don't expose any secret keys/tokens on GitHub!)
+* **Git** - 40+ commits, with a significant number from each teammate. Commit early, commit often. Each commit message should give a clear idea what you changed. (And don't expose any secret keys/tokens on GitHub!)  Reference this [git collaboration writeup](https://github.com/sf-wdi-31/project-1/blob/master/git-collaboration.md).
 * **Heroku** - Deploy your app with Heroku.
 * **Documentation** - Write a README that would make an employer excited to hire you. See the [example readme](https://github.com/sf-wdi-31/readme-example) for a suggested structure.
 
@@ -62,7 +62,6 @@ Now that you know the full requirements for your app, carry out more detailed pl
 * **Wireframes and Site Flow** - Sketch out what UI elements the main pages will include and how the user will navigate from page to page.
 * **Database** -  List the schemas you'll need, and list the attributes for each.  Indicate any associations (relationships) you plan to have in your data.
 *  **Feasibility Check** - Research any new tools or APIs. For example, if you're using an external JSON API, is all the information you want included in the response? Do you need to sign up and wait for approval to use the API?  Are there API keys you should keep hidden?
-
 
 
 Once your project has been approved, one member of your group should create a **GitHub Repo** for your project and [add your partner as a  collaborator](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
@@ -97,7 +96,7 @@ In addition, we suggest you have a feature freeze sometime on Monday, September 
 * **Creativity**: Did you add a personal spin or creative element to your project? Did you deliver something of value to the end user?
 * **Code Quality**: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code?
 * **Problem Solving**: Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
-*
+
 Each of the criteria above will be evaluated as one of **incomplete**, **does not meet expectations**, **meets expectations**, or **exceeds expectations**. You'll be receiving written feedback from your instructors.
 
 
