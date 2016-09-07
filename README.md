@@ -43,6 +43,13 @@ For this project, there are core technical requirements and flex technical requi
 * **Model Relationship** - Create a one-to-many or many-to-many relationship between two models using either embedded or referenced data.
 * **Sessions or Cookies** - Research sessions or cookies and use them to track a visitor.  As a much larger challenge, you can use sessions to enable authentication (user sign up, log in, and log out). Note: This option requires significant independent research, and doing authentication correctly is difficult.
 
+## BONUS IDEAS  
+If you want to push yourself and learn something new, optionally consider doing some of the following with your app, but *please talk to an instructor* beforehand:
+
+* **More Models or Relationships** - Add another model to your project or create a new relationship.
+* **Model Methods** - Level up your models by adding a method to one of your schemas.  For example, a person schema with `firstName` and `lastName` can have a `fullName` method (see mongoose docs on [instance methods](http://mongoosejs.com/docs/guide.html#methods) and [static methods](http://mongoosejs.com/docs/guide.html#statics)).
+* **Sass** - Use a CSS pre-compiler to write more imperative CSS.
+
 ## PLANNING DELIVERABLES
 
 Now that you know the full requirements for your app, carry out more detailed planning.
@@ -62,12 +69,15 @@ Once your project has been approved, one member of your group should create a **
 
 We recommend also setting up a [Trello](https://trello.com) board to track your progress, communicate with each other, and keep focused on the most important goals.
 
-## BONUS IDEAS  
-If you want to push yourself and learn something new, optionally consider doing some of the following with your app, but *please talk to an instructor* beforehand:
 
-* **More Models or Relationships** - Add another model to your project or create a new relationship.
-* **Model Methods** - Level up your models by adding a method to one of your schemas.  For example, a person schema with `firstName` and `lastName` can have a `fullName` method (see mongoose docs on [instance methods](http://mongoosejs.com/docs/guide.html#methods) and [static methods](http://mongoosejs.com/docs/guide.html#statics)).
-* **Sass** - Use a CSS pre-compiler to write more imperative CSS.
+
+## TEAMWORK EXPECTATIONS
+
+Every team member shares the responsibility of creating a product that reflects the viewpoints and contributions of each team member. If you're naturally more outgoing and a leader, this will probably mean taking a back seat sometimes or asking for input from quieter teammates. If you're one of those quiet people, make a dedicated effort to speak out more! This will help you create a project that's better than what you would have come up with individually.
+
+Communicate,communicate, communicate! Discuss roles, expectations, and timetables before you start coding. Figure out how you want to communicate about the project when you aren't physically with your team. A few ideas: Trello is a great tool for tracking what you're each working on, and Slack can help you communicate when you're not together.
+
+
 
 ## TIMELINE
 
