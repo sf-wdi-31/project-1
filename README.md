@@ -82,7 +82,7 @@ Communicate,communicate, communicate! Discuss roles, expectations, and timetable
 
 > DO NOT START CODING UNTIL YOU HAVE GONE OVER YOUR PROJECT PLAN WITH AN INSTRUCTOR.
 
-* **Wednesday, September 7th by 3:00pm** - Present your app plan to an instructor to go over your [planning deliverables](#planning-deliverables).
+* **Wednesday, September 7th** - Present your app plan to an instructor to go over your [planning deliverables](#planning-deliverables).
 * **Weekdays, September 8th-12th** - Technical interview prep at 9:00AM. Project work time for the rest of the day. Daily check-ins with your team's instructor.
 * **Tuesday, September 13th @ 1:15pm** - Project due and presentations!
 
