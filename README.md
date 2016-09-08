@@ -92,6 +92,8 @@ In addition, we suggest you have a feature freeze sometime on Monday, September 
 
 **Your project will be evaluated based on the following criteria:**
 
+
+* **Project Workflow**: Did you complete the user stories, wireframes, and task tracking as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
 * **Technical Requirements**: Did you deliver a project that met all the technical requirements?
 * **Creativity**: Did you add a personal spin or creative element to your project? Did you deliver something of value to the end user?
 * **Code Quality**: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code?
