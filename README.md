@@ -23,7 +23,7 @@ For this project, there are core technical requirements and flex technical requi
 
 **Your app should have all of the following:**
 * **Express API** - Build an Express server that has both HTML and JSON endpoints.
-* **RESTful Routes** - Design your CRUD routes using the [RESTful routing](http://restfulrouting.com/mappings/resources) convention.
+* **RESTful Routes** - Design your CRUD routes using the [RESTful routing](https://github.com/sf-wdi-31/mongoose-associations#restful-routing) convention.
 * **AJAX** - Leverage AJAX to make requests asynchronously.
 * **jQuery** - Use jQuery to add interactivity and display data on the client side.  
 * **Templating** - Render JSON data on the front end using handlebars templates.  
